@@ -11,4 +11,6 @@ console.log(numero1, numero2);
 
 const nome = 'Brendo';
 
+// nome = 'Bruno' // retorna um erro pois não pode alterar valor de uma constante
+
 console.log(nome);
