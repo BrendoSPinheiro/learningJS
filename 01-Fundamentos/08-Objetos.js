@@ -14,10 +14,29 @@ const carro1 = {
 
 carro1.preco = 50.456;
 
-console.log(carro1);
+console.log(carro1); /** Imprime
+ * {
+ *  marca: 'Fiat',
+ *  modelo: 'argo',
+ *  ano: 2018,
+ *  caracteristicas: { freio: 'abs', multimidia: true, airbag: true },
+ *  preco: 50.456
+ * }
+ */
 
 carro1.acelerar = () => {
   console.log('acelerando');
 }
 
 console.log(carro1);
+/** Imprime
+ * {
+ *   marca: 'Fiat',
+ *   modelo: 'argo',
+ *   ano: 2018,
+ *   caracteristicas: { freio: 'abs', multimidia: true, airbag: true },
+ *   preco: 50.456,
+ *   acelerar: [Function (anonymous)]
+ * }
+ * 
+ */
