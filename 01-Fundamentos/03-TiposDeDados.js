@@ -1,5 +1,7 @@
 let nome = 'Brendo';
 
+// typeof verifica o tipo do dado
+
 console.log(typeof nome); // imprime: String
 
 let idade = 20;

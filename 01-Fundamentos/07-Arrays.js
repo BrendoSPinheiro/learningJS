@@ -1,4 +1,4 @@
-const nomes = ['Brendo', 'Andrei', 'Maisa', 'Jose'];
+const nomes = ['Brendo', 'Andrei', 'Maisa', 'Jose']; // Criando array com valores pré definidos
 console.log(nomes); // imprime ['Brendo', 'Andrei', 'Maisa', 'Jose']
 console.log(nomes[0], nomes[3]); // imprime Brendo e Jose
 
