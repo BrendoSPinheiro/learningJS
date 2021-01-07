@@ -30,7 +30,7 @@ imprimeNomeCompleto(nomeCompleto); // imprime Brendo Souza
 imprimeNomeCompleto(nomeCompleto2); // imprime Andrei undefined pois não passei o segundo parâmetro na linha 27
 
 // Função com retorno e valor padrão no parâmetro
-function soma(num1 = 0, num2 = 0) {
+function soma(num1 = 0, num2 = 0) { // caso não seja passado nenhum parâmetro, são atribuídos a elas o valor padrão, no caso o 0
   return num1 + num2;
 }
 
