@@ -28,3 +28,14 @@ function teste2() {
 
 teste2();
 // console.log(texto); // da erro pois var em escopo de função só é visível dentro da função
+
+// Exemplo
+
+var numero = 1;
+
+{
+  var numero = 3;
+  console.log('dentro do bloco o número é: ', numero);
+}
+
+console.log('fora do bloco o número é: ', numero);
