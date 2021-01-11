@@ -35,7 +35,7 @@ var numero = 1;
 
 {
   var numero = 3;
-  console.log('dentro do bloco o número é: ', numero);
+  console.log('dentro do bloco o número é: ',numero); // imprime número 3
 }
 
-console.log('fora do bloco o número é: ', numero);
+console.log('fora do bloco o número é: ',numero); // imprime número 3
