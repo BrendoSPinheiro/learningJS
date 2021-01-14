@@ -31,3 +31,22 @@ const { logradouro, numero, casas } = endereco;
 const [ casa1, casa2, casa3 ] = casas;
 console.log(endereco, logradouro, numero, casas, casa1, casa2, casa3);
 */
+
+// Usando destructuring em função
+
+function rand({ min, max }) {
+  const valor = Math.random() * (max - min) + min;
+  return Math.floor(valor);
+}
+
+console.log(rand({
+  min: 40,
+  max: 100,
+}));
+
+const obj = {
+  min: 100,
+  max: 200,
+};
+
+console.log(rand(obj));
