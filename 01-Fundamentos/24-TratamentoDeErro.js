@@ -6,5 +6,13 @@ function testarNome(name) {
   }
 }
 
+function testar(name) {
+  try {
+    throw Error('teste erro');
+  } catch (error) {
+    return error.message;
+  }
+}
+
 console.log(testarNome('Brendo'));
 
